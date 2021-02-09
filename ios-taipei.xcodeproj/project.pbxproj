@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		525B468C25D2C09D00C47E4F /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B468B25D2C09D00C47E4F /* Tests_iOS.swift */; };
+		525B469725D2C09D00C47E4F /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B469625D2C09D00C47E4F /* Tests_macOS.swift */; };
+		525B469925D2C09D00C47E4F /* ios_taipeiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B467025D2C09C00C47E4F /* ios_taipeiApp.swift */; };
+		525B469A25D2C09D00C47E4F /* ios_taipeiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B467025D2C09C00C47E4F /* ios_taipeiApp.swift */; };
+		525B469B25D2C09D00C47E4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B467125D2C09C00C47E4F /* ContentView.swift */; };
+		525B469C25D2C09D00C47E4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B467125D2C09C00C47E4F /* ContentView.swift */; };
+		525B469D25D2C09D00C47E4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525B467225D2C09D00C47E4F /* Assets.xcassets */; };
+		525B469E25D2C09D00C47E4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525B467225D2C09D00C47E4F /* Assets.xcassets */; };
+		525B46B225D2C2FF00C47E4F /* DesignSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B46B125D2C2FF00C47E4F /* DesignSpec.swift */; };
+		525B46B325D2C2FF00C47E4F /* DesignSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B46B125D2C2FF00C47E4F /* DesignSpec.swift */; };
+		52A85FF625D2CB220055DE9E /* MeetupEventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A85FF525D2CB220055DE9E /* MeetupEventCell.swift */; };
+		52A85FF725D2CB220055DE9E /* MeetupEventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A85FF525D2CB220055DE9E /* MeetupEventCell.swift */; };
+		52A8600625D2E4740055DE9E /* CommonHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8600525D2E4740055DE9E /* CommonHelpers.swift */; };
+		52A8600725D2E4740055DE9E /* CommonHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8600525D2E4740055DE9E /* CommonHelpers.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		525B468825D2C09D00C47E4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 525B466B25D2C09C00C47E4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 525B467625D2C09D00C47E4F;
+			remoteInfo = "ios-taipei (iOS)";
+		};
+		525B469325D2C09D00C47E4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 525B466B25D2C09C00C47E4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 525B467E25D2C09D00C47E4F;
+			remoteInfo = "ios-taipei (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		525B467025D2C09C00C47E4F /* ios_taipeiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_taipeiApp.swift; sourceTree = "<group>"; };
+		525B467125D2C09C00C47E4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		525B467225D2C09D00C47E4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		525B467725D2C09D00C47E4F /* ios-taipei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-taipei.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		525B467A25D2C09D00C47E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525B467F25D2C09D00C47E4F /* ios-taipei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-taipei.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		525B468125D2C09D00C47E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525B468225D2C09D00C47E4F /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		525B468725D2C09D00C47E4F /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		525B468B25D2C09D00C47E4F /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		525B468D25D2C09D00C47E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525B469225D2C09D00C47E4F /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		525B469625D2C09D00C47E4F /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		525B469825D2C09D00C47E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525B46B125D2C2FF00C47E4F /* DesignSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSpec.swift; sourceTree = "<group>"; };
+		52A85FF525D2CB220055DE9E /* MeetupEventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetupEventCell.swift; sourceTree = "<group>"; };
+		52A8600525D2E4740055DE9E /* CommonHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonHelpers.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		525B467425D2C09D00C47E4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525B467C25D2C09D00C47E4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525B468425D2C09D00C47E4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525B468F25D2C09D00C47E4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		525B466A25D2C09C00C47E4F = {
+			isa = PBXGroup;
+			children = (
+				525B466F25D2C09C00C47E4F /* Shared */,
+				525B467925D2C09D00C47E4F /* iOS */,
+				525B468025D2C09D00C47E4F /* macOS */,
+				525B468A25D2C09D00C47E4F /* Tests iOS */,
+				525B469525D2C09D00C47E4F /* Tests macOS */,
+				525B467825D2C09D00C47E4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		525B466F25D2C09C00C47E4F /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				525B467025D2C09C00C47E4F /* ios_taipeiApp.swift */,
+				525B467125D2C09C00C47E4F /* ContentView.swift */,
+				52A85FF525D2CB220055DE9E /* MeetupEventCell.swift */,
+				525B46B125D2C2FF00C47E4F /* DesignSpec.swift */,
+				52A8600525D2E4740055DE9E /* CommonHelpers.swift */,
+				52A8600425D2E3D90055DE9E /* Supports */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		525B467825D2C09D00C47E4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				525B467725D2C09D00C47E4F /* ios-taipei.app */,
+				525B467F25D2C09D00C47E4F /* ios-taipei.app */,
+				525B468725D2C09D00C47E4F /* Tests iOS.xctest */,
+				525B469225D2C09D00C47E4F /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		525B467925D2C09D00C47E4F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				525B467A25D2C09D00C47E4F /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		525B468025D2C09D00C47E4F /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				525B468125D2C09D00C47E4F /* Info.plist */,
+				525B468225D2C09D00C47E4F /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		525B468A25D2C09D00C47E4F /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				525B468B25D2C09D00C47E4F /* Tests_iOS.swift */,
+				525B468D25D2C09D00C47E4F /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		525B469525D2C09D00C47E4F /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				525B469625D2C09D00C47E4F /* Tests_macOS.swift */,
+				525B469825D2C09D00C47E4F /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		52A8600425D2E3D90055DE9E /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				525B467225D2C09D00C47E4F /* Assets.xcassets */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		525B467625D2C09D00C47E4F /* ios-taipei (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525B46A125D2C09D00C47E4F /* Build configuration list for PBXNativeTarget "ios-taipei (iOS)" */;
+			buildPhases = (
+				525B467325D2C09D00C47E4F /* Sources */,
+				525B467425D2C09D00C47E4F /* Frameworks */,
+				525B467525D2C09D00C47E4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-taipei (iOS)";
+			productName = "ios-taipei (iOS)";
+			productReference = 525B467725D2C09D00C47E4F /* ios-taipei.app */;
+			productType = "com.apple.product-type.application";
+		};
+		525B467E25D2C09D00C47E4F /* ios-taipei (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525B46A425D2C09D00C47E4F /* Build configuration list for PBXNativeTarget "ios-taipei (macOS)" */;
+			buildPhases = (
+				525B467B25D2C09D00C47E4F /* Sources */,
+				525B467C25D2C09D00C47E4F /* Frameworks */,
+				525B467D25D2C09D00C47E4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-taipei (macOS)";
+			productName = "ios-taipei (macOS)";
+			productReference = 525B467F25D2C09D00C47E4F /* ios-taipei.app */;
+			productType = "com.apple.product-type.application";
+		};
+		525B468625D2C09D00C47E4F /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525B46A725D2C09D00C47E4F /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				525B468325D2C09D00C47E4F /* Sources */,
+				525B468425D2C09D00C47E4F /* Frameworks */,
+				525B468525D2C09D00C47E4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				525B468925D2C09D00C47E4F /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 525B468725D2C09D00C47E4F /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		525B469125D2C09D00C47E4F /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525B46AA25D2C09D00C47E4F /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				525B468E25D2C09D00C47E4F /* Sources */,
+				525B468F25D2C09D00C47E4F /* Frameworks */,
+				525B469025D2C09D00C47E4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				525B469425D2C09D00C47E4F /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 525B469225D2C09D00C47E4F /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		525B466B25D2C09C00C47E4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					525B467625D2C09D00C47E4F = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					525B467E25D2C09D00C47E4F = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					525B468625D2C09D00C47E4F = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 525B467625D2C09D00C47E4F;
+					};
+					525B469125D2C09D00C47E4F = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 525B467E25D2C09D00C47E4F;
+					};
+				};
+			};
+			buildConfigurationList = 525B466E25D2C09C00C47E4F /* Build configuration list for PBXProject "ios-taipei" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 525B466A25D2C09C00C47E4F;
+			productRefGroup = 525B467825D2C09D00C47E4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				525B467625D2C09D00C47E4F /* ios-taipei (iOS) */,
+				525B467E25D2C09D00C47E4F /* ios-taipei (macOS) */,
+				525B468625D2C09D00C47E4F /* Tests iOS */,
+				525B469125D2C09D00C47E4F /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		525B467525D2C09D00C47E4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525B469D25D2C09D00C47E4F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525B467D25D2C09D00C47E4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525B469E25D2C09D00C47E4F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525B468525D2C09D00C47E4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525B469025D2C09D00C47E4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		525B467325D2C09D00C47E4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525B469B25D2C09D00C47E4F /* ContentView.swift in Sources */,
+				525B46B225D2C2FF00C47E4F /* DesignSpec.swift in Sources */,
+				52A85FF625D2CB220055DE9E /* MeetupEventCell.swift in Sources */,
+				525B469925D2C09D00C47E4F /* ios_taipeiApp.swift in Sources */,
+				52A8600625D2E4740055DE9E /* CommonHelpers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525B467B25D2C09D00C47E4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525B469C25D2C09D00C47E4F /* ContentView.swift in Sources */,
+				525B46B325D2C2FF00C47E4F /* DesignSpec.swift in Sources */,
+				52A85FF725D2CB220055DE9E /* MeetupEventCell.swift in Sources */,
+				525B469A25D2C09D00C47E4F /* ios_taipeiApp.swift in Sources */,
+				52A8600725D2E4740055DE9E /* CommonHelpers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525B468325D2C09D00C47E4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525B468C25D2C09D00C47E4F /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525B468E25D2C09D00C47E4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525B469725D2C09D00C47E4F /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		525B468925D2C09D00C47E4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 525B467625D2C09D00C47E4F /* ios-taipei (iOS) */;
+			targetProxy = 525B468825D2C09D00C47E4F /* PBXContainerItemProxy */;
+		};
+		525B469425D2C09D00C47E4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 525B467E25D2C09D00C47E4F /* ios-taipei (macOS) */;
+			targetProxy = 525B469325D2C09D00C47E4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		525B469F25D2C09D00C47E4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		525B46A025D2C09D00C47E4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		525B46A225D2C09D00C47E4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49X9D2W8KH;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iostaipei.ios-taipei";
+				PRODUCT_NAME = "ios-taipei";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		525B46A325D2C09D00C47E4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49X9D2W8KH;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iostaipei.ios-taipei";
+				PRODUCT_NAME = "ios-taipei";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		525B46A525D2C09D00C47E4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 49X9D2W8KH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iostaipei.ios-taipei";
+				PRODUCT_NAME = "ios-taipei";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		525B46A625D2C09D00C47E4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 49X9D2W8KH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iostaipei.ios-taipei";
+				PRODUCT_NAME = "ios-taipei";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		525B46A825D2C09D00C47E4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49X9D2W8KH;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iostaipei.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-taipei (iOS)";
+			};
+			name = Debug;
+		};
+		525B46A925D2C09D00C47E4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49X9D2W8KH;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iostaipei.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-taipei (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		525B46AB25D2C09D00C47E4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 49X9D2W8KH;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iostaipei.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ios-taipei (macOS)";
+			};
+			name = Debug;
+		};
+		525B46AC25D2C09D00C47E4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 49X9D2W8KH;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iostaipei.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ios-taipei (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		525B466E25D2C09C00C47E4F /* Build configuration list for PBXProject "ios-taipei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525B469F25D2C09D00C47E4F /* Debug */,
+				525B46A025D2C09D00C47E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525B46A125D2C09D00C47E4F /* Build configuration list for PBXNativeTarget "ios-taipei (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525B46A225D2C09D00C47E4F /* Debug */,
+				525B46A325D2C09D00C47E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525B46A425D2C09D00C47E4F /* Build configuration list for PBXNativeTarget "ios-taipei (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525B46A525D2C09D00C47E4F /* Debug */,
+				525B46A625D2C09D00C47E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525B46A725D2C09D00C47E4F /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525B46A825D2C09D00C47E4F /* Debug */,
+				525B46A925D2C09D00C47E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525B46AA25D2C09D00C47E4F /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525B46AB25D2C09D00C47E4F /* Debug */,
+				525B46AC25D2C09D00C47E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 525B466B25D2C09C00C47E4F /* Project object */;
+}
